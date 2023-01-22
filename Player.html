@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+</head>
+<body>
+
+  <div id='player'>
+    <div>
+      <div class="column" ref="playbutton">
+        <span class="icon">
+          <i class="fa fa-keyboard"></i>
+        </span>
+
+        <span class="buttons">
+          <a class="button is-success"
+            v-bind:class="{ 'is-active': isPlaying, 'is-disabled': isLoading }"
+            v-on:click='playpause'><span v-bind:class="isPlaying ? 'fa fa-pause' : 'fa fa-play' "></span>
+          </a>
+          <a class="button is-danger"
+            v-bind:class="{ 'is-disabled': isLoading }"
+            v-on:click='stop'><span class="fa fa-stop"></span></a>
+        </span>
+      </div>
+    </div>
+    <transition name="slide-fade">
+      <div id="playlist"
+      ></div>
+    </transition>
+  </div>
+</body>
+</html>
+

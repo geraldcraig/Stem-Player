@@ -1,0 +1,119 @@
+<style lang="scss">
+// $widescreen-enabled: false;
+// $fullhd-enabled: false;
+// $navbar-breakpoint: 414px;
+
+// @mixin my-touch {
+//   @media screen and (max-width: $navbar-breakpoint - 1px) {
+//     @content;
+//   }
+// }
+
+// @mixin my-desktop {
+//   @media screen and (min-width: $navbar-breakpoint) {
+//     @content;
+//   }
+// }
+// @import "~bulmaswatch/darkly/_variables.scss";
+// @import "~bulma";
+// @import "~bulmaswatch/darkly/_overrides.scss";
+// </style>
+
+// <style>
+// #player {
+//   margin-bottom: 10px;
+// }
+
+// .keyboard {
+//   opacity: 0.5;
+//   font-size: 0.8em;
+// }
+
+// kbd {
+//     color: black;
+//     display: inline-block;
+//     border: 1px solid #ccc;
+//     border-radius: 4px;
+//     padding: 0.1em 0.5em;
+//     margin: 0 0.2em;
+//     box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2), 0 0 0 2px #fff inset;
+//     background-color: #f7f7f7;
+// }
+
+// #title {
+//   margin-top: 20px;
+// }
+
+// #d3container {
+//   margin-top: -1em;
+// }
+
+// .hide {
+//   opacity: 0;
+// }
+
+// text.method_label.active {
+//   fill: orange;
+// }
+
+// .grid text.track_label.active {
+//   fill: red;
+// }
+
+// .slide-fade-enter-active {
+//   transition: all .3s ease;
+// }
+// .slide-fade-leave-active {
+//   transition: all .8s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+// }
+// .slide-fade-enter, .slide-fade-leave-active {
+//   opacity: 0;
+// }
+
+// .inria {
+//   padding-bottom: 2em;
+// }
+
+// .footerdesc {
+//   position: absolute;
+//   font-size: 9px;
+// }
+
+// .container {
+//   margin-top: 0;
+// }
+
+// footer.footer {
+//   padding: 0;
+//   padding-top: 1em;
+//   height: 3.5em;
+//   background-color: #000000!important;
+// }
+
+// .footer {
+//   position: absolute;
+//   bottom: 0px;
+//   width: 100%;
+//   z-index: 1000;
+// }
+
+// .footer .container .content{
+//   font-size: 1.2em;
+// }
+// .logo {
+//   margin-right: 2em; 
+// }
+
+// .hero {
+//   padding-top: 0.3em;
+//   height: 5.0em;
+// }
+
+// .navbar-brand img {
+//   margin-right: 1em;
+// }
+// .navbar-brand {
+//   padding-left: 1em;
+// }
+
+// </style>
